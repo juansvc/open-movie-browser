@@ -3,7 +3,10 @@
      <v-app-bar app>
        <!-- Title toolbar -->
       <v-toolbar-title class="headline text-uppercase">
+        <!-- Link to home -->
+        <router-link to="/" tag="span" style="cursor: pointer">
         <h3>Giffits - Eng. Juan Vivanco</h3>
+        </router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-flex sm="3" md="2">
