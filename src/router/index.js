@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Movies from '../components/Movies.vue'
 import InfoMovie from '../components/InfoMovie.vue'
+import Search from '../components/Search.vue'
 
 Vue.use(VueRouter)
 //Routes to components
@@ -22,7 +23,7 @@ const routes = [
     name: 'Search',
     props: true,
     component: Search
-  },
+  }
 ]
 
 const router = new VueRouter({

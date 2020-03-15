@@ -21,7 +21,7 @@
         ></v-text-field>
       </v-flex>
       <!-- Search button -->
-      <v-btn text color="green" :disabled="!dataAvailable" large @click="search" @keyup.enter.native="search">
+      <v-btn text color="green" :disabled="!dataAvailable" large @click="searchm" @keyup.enter.native="searchm">
         <v-icon>mdi-magnify</v-icon>Search
       </v-btn>
     </v-app-bar>
@@ -49,9 +49,9 @@ export default {
   },
   // Methon for search movies
   methods: {
-    search() {
-      this.search = "";
+    searchm() {
       this.$router.push("/search/" + this.search)
+      this.search = ""
     }
   },
   computed: {
