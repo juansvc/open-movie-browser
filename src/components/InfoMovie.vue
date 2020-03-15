@@ -98,7 +98,8 @@ export default {
       halfIcon: "mdi-heart-half-full",
       color: "red lighten-3",
       readonly: true,
-      bgColor: "grey lighten-1"
+      bgColor: "grey lighten-1",
+      comment: ""
     };
   },
   //   Fetch from api.js for movie selected on component mounted
