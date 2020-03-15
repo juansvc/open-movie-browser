@@ -17,6 +17,12 @@ const routes = [
     props: true,
     component: InfoMovie
   },
+  {
+    path: '/search/:search',
+    name: 'Search',
+    props: true,
+    component: Search
+  },
 ]
 
 const router = new VueRouter({
