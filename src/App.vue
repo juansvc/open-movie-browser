@@ -24,6 +24,8 @@
     </v-app-bar>
 
     <v-content>
+      <!-- Use router for view -->
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
