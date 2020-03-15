@@ -21,7 +21,7 @@
         ></v-text-field>
       </v-flex>
       <!-- Search button -->
-      <v-btn text color="green" large @click="search" @keyup.enter.native="search">
+      <v-btn text color="green" :disabled="!dataAvailable" large @click="search" @keyup.enter.native="search">
         <v-icon>mdi-magnify</v-icon>Search
       </v-btn>
     </v-app-bar>
@@ -51,6 +51,12 @@ export default {
   methods: {
     search() {
       this.search = "";
+      this.$router.push("/search/" + this.search)
+    }
+  },
+  computed: {
+    dataAvailable() {
+      return this.search !== null && this.search !== ""
     }
   }
 };
