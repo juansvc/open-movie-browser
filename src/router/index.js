@@ -1,3 +1,11 @@
+
+/* 
+Vue Js Frontend Task Using the Open Movie Database.
+Author Juan Sebastian Vivanco Castro
+@github juansvc
+Title: Giffits - Eng. Juan Vivanco
+ */
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Movies from '../components/Movies.vue'

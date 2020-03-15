@@ -1,3 +1,11 @@
+
+<!--  
+Vue Js Frontend Task Using the Open Movie Database.
+Author Juan Sebastian Vivanco Castro
+@github juansvc
+Title: Giffits - Eng. Juan Vivanco
+-->
+
 <template>
   <v-app>
      <v-app-bar app>

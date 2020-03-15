@@ -1,3 +1,11 @@
+
+<!--  
+Vue Js Frontend Task Using the Open Movie Database.
+Author Juan Sebastian Vivanco Castro
+@github juansvc
+Title: Giffits - Eng. Juan Vivanco
+-->
+
 <template>
   <!-- containter to present while handling data -->
   <v-container v-if="loading">

@@ -1,19 +1,24 @@
-# giffitsejv
+
+<!-- 
+Vue Js Frontend Task Using the Open Movie Database.
+Author Juan Sebastian Vivanco Castro
+@github juansvc
+Title: Giffits - Eng. Juan Vivanco
+ -->
+
+
+# Vue Js Frontend Task Using the Open Movie Database.
+
+### Instructions
 
 ## Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Run
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Author: Eng. Juan Sebastian Vivanco

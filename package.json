@@ -1,6 +1,7 @@
 {
   "name": "giffitsejv",
   "version": "0.1.0",
+  "author": "Eng. Juan Vivanco <juansebastianvc@gmail.com> (http://github.com/juansvc)",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
