@@ -5,4 +5,11 @@ import axios from 'axios'
 axios.defaults.baseURL = 'http://www.omdbapi.com/?apikey=9ea9caf2&page=1&type=movie&r=json'
 
 export default {
+    // Method for fetch first view and searched movies
+    fetchmovies (search) {
+        return axios.get('&s=' + search)
+          .then(res => {
+            return res.data
+          })
+      }
 }
