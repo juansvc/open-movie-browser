@@ -116,6 +116,7 @@ export default {
         });
         this.loading
         this.loading = false;
+        this.comment = this.movie.Plot;
       })
       .catch(error => {
         console.log(error);
@@ -125,6 +126,17 @@ export default {
     //   Back home button
     back() {
       this.$router.push("/");
+    }
+  },
+  watch: {
+    //   save in local storage comments, view inspecting in browsers
+    comment: {
+      handler() {
+        console.log("Comment changed, saved to local storage!");
+        localStorage.setItem("comment", this.comment);
+        console.log("Comment on local storage: " + this.comment);
+      },
+      deep: true
     }
   }
 };

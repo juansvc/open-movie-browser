@@ -51,6 +51,11 @@ export default {
         console.log(error);
       });
 
+    // Get comment previous saved when open info movie on local storage
+    if (localStorage.getItem("comment"))
+      this.comment = localStorage.getItem("comment");
+    console.log("Comment on local storage: " + this.comment);
+
   },
   methods: {
     //   Method for view specific movie data with imdb-id
