@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Movies from '../components/Movies.vue'
+import InfoMovie from '../components/InfoMovie.vue'
 
 Vue.use(VueRouter)
 //Routes to components

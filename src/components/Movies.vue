@@ -22,7 +22,7 @@
           </v-card-text>
           <!-- View movie info -->
           <v-card-actions class="justify-center">
-            <v-btn text x-large outlined color="green">View</v-btn>
+            <v-btn text x-large outlined color="green" @click="movie(item.imdbID)">View</v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>
@@ -53,6 +53,10 @@ export default {
 
   },
   methods: {
+    //   Method for view specific movie data with imdb-id
+    movie(id) {
+      this.$router.push("/movie/" + id);
+    }
   }
 }
 </script>

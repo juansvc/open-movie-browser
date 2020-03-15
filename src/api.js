@@ -11,5 +11,12 @@ export default {
           .then(res => {
             return res.data
           })
+      },
+      // Method for fetch movie info by imdb-id
+      fetchmovie (id) {
+        return axios.get('&i=' + id)
+          .then(res => {
+            return res.data
+          })
       }
 }
