@@ -1,5 +1,18 @@
 <template>
-  <v-container>
+<!-- containter to present while handling data -->
+<v-container v-if="loading">
+    <div class="text-xs-center">
+      <v-progress-linear indeterminate color="green"></v-progress-linear>
+    </div>
+  </v-container>
+<!-- containter to present if no data -->
+  <v-container v-else-if="data === false">
+    <div class="text-xs-center">
+      <h2>Sorry, not found {{ this.name }}</h2>
+    </div>
+  </v-container >
+<!-- container when data ready -->
+  <v-container v-else grid-list-xl>
     <v-container fluid>
           <v-row>
             <v-col v-for="item in items" :key="item.Title" cols="12" sm="1" md="3" lg="4">
@@ -35,7 +48,9 @@ export default {
   props: ["search"],
   data() {
     return {
-      items: []
+      items: [],
+      loading: true,
+      data: false
     };
   },
 
