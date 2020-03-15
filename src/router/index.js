@@ -10,6 +10,12 @@ const routes = [
     name: 'Movies',
     component: Movies
   },
+  {
+    path: '/movie/:id',
+    name: 'InfoMovie',
+    props: true,
+    component: InfoMovie
+  },
 ]
 
 const router = new VueRouter({
