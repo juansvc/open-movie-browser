@@ -13,7 +13,7 @@ Title: Giffits - Eng. Juan Vivanco
       <v-toolbar-title class="headline text-uppercase">
         <!-- Link to home -->
         <router-link to="/" tag="span" style="cursor: pointer">
-        <h3>Giffits - Eng. Juan Vivanco</h3>
+        <h3>Open Movie Browser</h3>
         </router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
