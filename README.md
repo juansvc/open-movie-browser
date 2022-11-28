@@ -1,13 +1,4 @@
-
-<!-- 
-Vue Js Frontend Task Using the Open Movie Database.
-Author Juan Sebastian Vivanco Castro
-@github juansvc
-Title: Giffits - Eng. Juan Vivanco
- -->
-
-
-# Vue Js Frontend Task Using the Open Movie Database.
+# Vue Js Browser for Open Movie Database.
 
 ### Instructions
 
@@ -20,5 +11,3 @@ yarn install
 ```
 yarn serve
 ```
-
-#### Author: Eng. Juan Sebastian Vivanco
