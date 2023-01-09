@@ -8,9 +8,7 @@ yarn install
 ```
 
 ## Demo
-```
-https://open-movie-browser.vercel.app
-```
+[Demo](https://open-movie-browser.vercel.app)
 
 ### Run
 ```
